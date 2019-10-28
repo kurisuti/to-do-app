@@ -1,0 +1,52 @@
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #ffffff;
+  margin: 35px;
+}
+
+header {
+  background-image: url("../images/nico-mksmc-91Ntxboyg8Y-unsplash.jpg");
+  height: 15vh;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:right;
+
+}
+
+
+main {
+  max-width: 400px;
+
+}
+
+#addToDoForm{
+  width: 100%;
+  margin: 20px 0;
+  display: inline-block;
+  text-align: center;
+}
+
+
+#addToDoForm button{
+  background-color:#4cc5a7;
+  color: #ffffff;
+  width:100px;
+  font-size: 12px;
+}
+
+#addToDoForm label{
+  font-size: 12px;
+}
+
+
+ul#toDoList {
+  list-style-type: none;
+}
+
+@media screen and (max-width:1024px) {
+  header.mdl-layout__header {
+    display:flex;
+  }
+}
