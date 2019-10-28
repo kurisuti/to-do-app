@@ -11,13 +11,13 @@ function onReady(){
 
     let newLi = document.createElement("li");// <li></li>
     let checkbox = document.createElement("input");
-    checkbox.type= "checkbox";
+    checkbox.type="checkbox";
 
     let deleteBtn = document.createElement("button");
     deleteBtn.textContent = "Delete";
 
     deleteBtn.addEventListener("click", function(event){
-      TODO.LIST.removeChild(this.parentElement);
+      TODO_LIST.removeChild(this.parentElement);
     })
 
     newLi.textContent = title;
