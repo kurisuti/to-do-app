@@ -12,37 +12,32 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position:right;
-
 }
 
 
 main {
   max-width: 400px;
-
 }
 
-#addToDoForm{
+#addToDoForm {
   width: 100%;
   margin: 20px 0;
   display: inline-block;
   text-align: center;
 }
 
-
-#addToDoForm button{
-  background-color:#4cc5a7;
-  color: #ffffff;
-  width:100px;
+#addToDoForm label {
   font-size: 12px;
 }
 
-#addToDoForm label{
-  font-size: 12px;
-}
 
+#addToDoForm button {
+  margin-top: 50px;
+}
 
 ul#toDoList {
   list-style-type: none;
+  margin: 10px;
 }
 
 @media screen and (max-width:1024px) {
