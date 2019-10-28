@@ -12,6 +12,7 @@ function onReady(){
     let newLi = document.createElement("li");// <li></li>
     let checkbox = document.createElement("input");
     checkbox.type="checkbox";
+    checkbox.style.alignContent="flex-start";
 
     let deleteBtn = document.createElement("button");
     deleteBtn.textContent = "Delete";
